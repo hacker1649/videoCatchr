@@ -81,3 +81,5 @@ The application should now be running at http://localhost:3000.
 
 - Add options for different video formats (MP4, WebM, etc.).
 - Implement a progress bar to show download progress.
+- Deploy the website to a live server for public access.
+
