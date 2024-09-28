@@ -9,6 +9,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('Backend API is working! Use the /download route to download videos.');
+});
+
 app.post('/download', async (req, res) => {
   const { url } = req.body;
 
